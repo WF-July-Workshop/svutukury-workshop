@@ -37,8 +37,7 @@ authentication:
       header_value_prefix: Bearer
       jwks:
         - url:
-https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserv
-iceaccount.com
+          https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com
 
 authorization:
   require_authentication: false
